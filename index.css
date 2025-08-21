@@ -1,55 +1,41 @@
 body {
-    margin: 0;
+  margin: 0;
+  background-color: darkblue;
+  color: white;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
 }
 
-.home_points {
-    display: inline-flex;
-    justify-content: baseline;
-    margin-right: 29px;
-    margin-left: 10px;
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.guest_points {
-    display:inline-flex;
-    justify-content:end;
+#home_sum, #guest_sum {
+  color: red;
+  background-color: black;
+  padding: 25px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+.home_points, .guest_points {
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    margin: 4px;
-    background-color:darkblue;
-    color: white;
-    border-radius: 5px;
+  margin: 4px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
 }
-
-#home_sum {
-    display: inline-flex;
-    justify-content: baseline;
-    margin-right: 80px;
-    margin-left: 40px;
-    color: red;
-    background-color: black;
-    padding: 25px;
-    border-radius: 5px;
-}
-
-#guest_sum {
-    display:inline-flex;
-    justify-content:end;
-    color: red;
-    background-color: black;
-    padding: 25px;
-    border-radius: 5px;
-    
-}
-body {
-    background-color:darkblue;
-}
-
-
-
