@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: darkblue;
+  font-family: 'Orbitron', sans-serif;
   color: white;
 }
 
@@ -8,7 +9,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 40px 0;
 }
 
 .team {
@@ -17,25 +18,36 @@ body {
   align-items: center;
 }
 
+h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
 #home_sum, #guest_sum {
   color: red;
   background-color: black;
-  padding: 25px;
-  border-radius: 5px;
-  margin: 10px 0;
-  font-size: 2em;
+  padding: 25px 40px;
+  border-radius: 10px;
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
-.home_points, .guest_points {
+.points {
   display: flex;
-  justify-content: center;
+  gap: 10px;
 }
 
 button {
-  margin: 4px;
   background-color: darkblue;
   color: white;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 10px 15px;
   font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: navy;
 }
